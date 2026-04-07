@@ -1,0 +1,104 @@
+/*Fundo da página*/
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+/* Container principal */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #111111;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(187, 0, 255, 0.4);
+    border: 1px solid rgb(187, 0, 255);
+}
+
+/*Título da página*/
+h1 {
+    text-align: center;
+    background-color: rgb(187, 0, 255);
+    color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*Subtítulo da página*/
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #15fd34;
+}
+
+/*Parágrafo*/
+p {
+    margin-top: 20px;
+}
+
+/*Lista criada*/
+ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/*Labels de preenchimento*/
+label {
+    display: block;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/*Seleção dos Inputs e selects*/
+select, input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #333333;
+    background-color: #000000;
+    color: #ffffff;
+    outline: none;
+    transition: 0.3s;
+}
+
+select:focus, input:focus {
+    border: 1px solid #15fd34;
+    box-shadow: 0 0 10px #15fd34;
+}
+
+/*Resultado*/
+#resultado {
+    margin-top: 15px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #15fd34;
+}
+
+/*Hover interativo*/
+select:hover, input:hover {
+    border-color: rgb(187, 0, 255);
+}
+
+/*Reset básico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Responsividade*/
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
